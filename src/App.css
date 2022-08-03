@@ -1,0 +1,70 @@
+.heading{
+  text-align: center;
+  padding: 15px;
+  background-color: darkgoldenrod;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+.inputForm{
+  min-height: 400px;
+  width: 45%;
+  background-color: aqua;
+}
+.inputForm ,h1,input{
+  text-align: center;
+}
+.inputForm h1{
+  color: rgb(214, 66, 12);
+}
+.inputForm input{
+  width: 80%;
+  height: 40px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+}
+.inputForm button{
+  width: 80%;
+  background-color: blueviolet ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.displayData{
+  min-height: 400px;
+  width: 45%;
+  background-color: aqua;
+  padding-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+} .displayData table{
+  text-align: center;
+  padding-left:10px;
+}
+.displayData h1{
+  color: rgb(187, 66, 22);
+}
+td{
+  padding: 5px 20px;
+}
+.updateBtn{
+  background-color: rgba(13, 130, 13, 0.822);
+}
+.editBtn{
+  background-color: greenyellow;
+}
+.deleteBtn{
+  background-color: red;
+  color:white;
+}
+th{
+  color: rgb(143, 85, 13);
+}
